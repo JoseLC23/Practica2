@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom, #cbe0ff, #8ba9e8, #5279c6, #2d4b8e);
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    justify-content: space-between;
+    margin: 0%;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #199dfb;
+    color: azure;
+    height: 50px;
+  }
+
+  .contenido{
+    height: 400px;
+  }
+  
+  .titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  .imagen {
+    width: 200px;
+    height: 200px;
+  }
