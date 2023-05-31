@@ -1,11 +1,13 @@
 body {
-    background: linear-gradient(to bottom, #cbe0ff, #8ba9e8, #5279c6, #2d4b8e);
+    /*background: linear-gradient(to bottom, #cbe0ff, #8ba9e8, #5279c6, #2d4b8e);*/
+    background-color: #297053;
     text-align: center;
     display: flex;
     flex-direction: column; 
     min-height: 100vh;
     justify-content: space-between;
     margin: 0%;
+    color: #ffffff;
   }
 
   section {
@@ -16,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #199dfb;
+    background-color: #0a4507;
     color: azure;
     height: 50px;
   }
@@ -34,4 +36,14 @@ body {
   .imagen {
     width: 200px;
     height: 200px;
+    border-radius: 15%;
+  }
+
+  ul{
+    padding-left: 300px;
+  }
+
+  a{
+    text-decoration: none;
+    color: aliceblue;
   }
